@@ -1,0 +1,7 @@
+name = feature_bloque
+core = 7.x
+package = Features
+dependencies[] = blockexport
+features[blockexport_settings][] = block_settings
+features[features_api][] = api:2
+project path = sites/all/modules/features
