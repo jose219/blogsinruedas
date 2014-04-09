@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bloque_site feature.
+ */
+
+include_once 'bloque_site.features.inc';
