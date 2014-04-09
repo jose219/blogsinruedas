@@ -9,6 +9,7 @@ features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
 features[variable][] = site_mail
+features[variable][] = site_name
 features_exclude[dependencies][views] = views
 features_exclude[dependencies][ctools] = ctools
 project path = sites/all/modules/features

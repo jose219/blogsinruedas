@@ -17,5 +17,12 @@ function feature_bloque_strongarm() {
   $strongarm->value = 'blog@sinruedas.com';
   $export['site_mail'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'site_name';
+  $strongarm->value = 'Blog Sin Ruedas';
+  $export['site_name'] = $strongarm;
+
   return $export;
 }
