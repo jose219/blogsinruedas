@@ -1,0 +1,12 @@
+name = solo_bloque_vista
+core = 7.x
+package = Features
+features[context][] = bloque_col
+features[ctools][] = context:context:3
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = primer_articulo
+features[views_view][] = ultimos_5_articulos
+features_exclude[dependencies][context] = context
+features_exclude[dependencies][views] = views
+project path = sites/all/modules/features

@@ -1,0 +1,15 @@
+name = solo_site
+core = 7.x
+package = Features
+dependencies[] = system
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[user_permission][] = access site in maintenance mode
+features[user_permission][] = access site reports
+features[user_permission][] = administer site configuration
+features[variable][] = site_mail
+features[variable][] = site_name
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][strongarm] = strongarm
+project path = sites/all/modules/features
