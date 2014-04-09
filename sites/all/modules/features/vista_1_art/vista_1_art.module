@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the vista_1_art feature.
+ */
+
+include_once 'vista_1_art.features.inc';
