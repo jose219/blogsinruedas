@@ -9,4 +9,5 @@ features[views_view][] = primer_articulo
 features[views_view][] = ultimos_articulos
 features_exclude[dependencies][context] = context
 features_exclude[dependencies][views] = views
+no autodetect = 1
 project path = sites/all/modules/features

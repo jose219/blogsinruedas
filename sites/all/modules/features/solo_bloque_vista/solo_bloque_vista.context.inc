@@ -26,15 +26,15 @@ function solo_bloque_vista_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-primer_articulo-block' => array(
-          'module' => 'views',
-          'delta' => 'primer_articulo-block',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
-        ),
         'views-ultimos_articulos-block' => array(
           'module' => 'views',
           'delta' => 'ultimos_articulos-block',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
+        'views-primer_articulo-block' => array(
+          'module' => 'views',
+          'delta' => 'primer_articulo-block',
           'region' => 'sidebar_second',
           'weight' => '-9',
         ),
