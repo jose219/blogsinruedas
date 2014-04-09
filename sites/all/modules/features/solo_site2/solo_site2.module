@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the solo_site2 feature.
+ */
+
+include_once 'solo_site2.features.inc';
