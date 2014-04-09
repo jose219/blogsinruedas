@@ -1,0 +1,14 @@
+name = feature_site_bloque
+core = 7.x
+package = Features
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = strongarm
+dependencies[] = views
+features[context][] = bloque_col
+features[ctools][] = context:context:3
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = site_mail
+features[variable][] = site_name
+project path = sites/all/modules/features
