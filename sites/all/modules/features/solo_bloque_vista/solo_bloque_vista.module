@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the solo_bloque_vista feature.
+ */
+
+include_once 'solo_bloque_vista.features.inc';
