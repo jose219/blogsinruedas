@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the uuid_nodo2 feature.
+ */
+
+include_once 'uuid_nodo2.features.inc';
