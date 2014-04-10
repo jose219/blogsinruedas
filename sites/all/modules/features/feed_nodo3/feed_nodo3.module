@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the feed_nodo3 feature.
+ */
+
+include_once 'feed_nodo3.features.inc';
