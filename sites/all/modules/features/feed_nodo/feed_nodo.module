@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Feed_nodo feature.
- */
-
-include_once 'feed_nodo.features.inc';

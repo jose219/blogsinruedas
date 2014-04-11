@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the solo_site feature.
- */
-
-include_once 'solo_site.features.inc';
