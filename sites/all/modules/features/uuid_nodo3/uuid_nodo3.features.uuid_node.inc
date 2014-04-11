@@ -12,7 +12,7 @@ function uuid_nodo3_uuid_features_default_content() {
 
   $nodes[] = array(
   'uid' => 1,
-  'title' => 'Facebook Zero, el momento en el que la visibilidad orgánica sea cero',
+  'title' => 'Facebook Zero, el momento en el que la visibilidad orgánica sea cero cero',
   'log' => '',
   'status' => 1,
   'comment' => 0,
@@ -53,6 +53,29 @@ function uuid_nodo3_uuid_features_default_content() {
   'picture' => 0,
   'data' => 'b:0;',
   'date' => '2014-04-08 09:50:18 +0000',
+);
+  $nodes[] = array(
+  'uid' => 1,
+  'title' => 'fagrgareag',
+  'log' => '',
+  'status' => 1,
+  'comment' => 0,
+  'promote' => 1,
+  'sticky' => 0,
+  'vuuid' => '1b0b7da6-39ce-4d39-bf33-33fb5eb4cf5d',
+  'type' => 'entrada_blog',
+  'language' => 'und',
+  'created' => 1397200852,
+  'tnid' => 0,
+  'translate' => 0,
+  'uuid' => 'c4dce5b2-6c4c-41b8-99a5-b61e445e5e59',
+  'revision_uid' => 1,
+  'field_cuerpo_entrada' => array(),
+  'field_puntue_' => array(),
+  'name' => 'admin',
+  'picture' => 0,
+  'data' => 'b:0;',
+  'date' => '2014-04-11 07:20:52 +0000',
 );
   return $nodes;
 }

@@ -16,6 +16,7 @@ features[field_instance][] = node-entrada_blog-field_cuerpo_entrada
 features[field_instance][] = node-entrada_blog-field_puntue_
 features[node][] = entrada_blog
 features[uuid_node][] = 19acdc3f-faaa-45a1-b47c-a3145711af94
+features[uuid_node][] = c4dce5b2-6c4c-41b8-99a5-b61e445e5e59
 features[variable][] = field_bundle_settings_node__entrada_blog
 features[variable][] = menu_options_entrada_blog
 features[variable][] = menu_parent_entrada_blog
