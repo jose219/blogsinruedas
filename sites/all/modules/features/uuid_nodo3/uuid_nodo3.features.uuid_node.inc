@@ -12,7 +12,7 @@ function uuid_nodo3_uuid_features_default_content() {
 
   $nodes[] = array(
   'uid' => 1,
-  'title' => 'Facebook Zero, el momento en el que la visibilidad orgánica sea cero',
+  'title' => 'Facebook Zero, el momento en el que la visibilidad orgánica sea cero cero',
   'log' => '',
   'status' => 1,
   'comment' => 0,
