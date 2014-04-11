@@ -1,0 +1,16 @@
+name = f_bloque_jose
+core = 7.x
+package = Features
+dependencies[] = context
+dependencies[] = views
+features[context][] = bloque_vista_jose
+features[ctools][] = context:context:3
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[user_permission][] = administer contexts
+features[user_permission][] = context ajax block access
+features[views_view][] = vista_jose
+features_exclude[dependencies][context_ui] = context_ui
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][features] = features
+project path =  sites/all/modules/features

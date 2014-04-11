@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_bloque_jose feature.
+ */
+
+include_once 'f_bloque_jose.features.inc';
