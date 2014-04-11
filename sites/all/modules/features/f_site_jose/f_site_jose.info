@@ -1,0 +1,15 @@
+name = f_site_jose
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = system
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[user_permission][] = access site in maintenance mode
+features[user_permission][] = access site reports
+features[user_permission][] = administer site configuration
+features[variable][] = site_mail
+features[variable][] = site_name
+project path = sites/all/modules/features
